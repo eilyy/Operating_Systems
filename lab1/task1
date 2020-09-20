@@ -1,0 +1,11 @@
+#!/bin/bash
+a=$1
+b=$2
+c=$3
+if [[ $a -lt $b ]]
+then a=$b
+fi
+if [[ $a -lt $c ]]
+then a=$c
+fi
+echo "$a is the maximal integer."

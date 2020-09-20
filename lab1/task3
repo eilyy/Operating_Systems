@@ -1,0 +1,20 @@
+#!/bin/bash
+echo "MENU"
+echo "1 - LAUNCH Nano"
+echo "2 - LAUNCH Vi"
+echo "3 - LAUNCH Links"
+echo "q - QUIT"
+input=""
+read input
+if [[ $input == "1" ]]
+then nano
+fi 
+if [[ $input == "2" ]]
+then vi
+fi
+if [[ $input == "3" ]]
+then links
+fi
+if [[ $input == "q" ]]
+then exit
+fi
