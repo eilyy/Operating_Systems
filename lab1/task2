@@ -1,9 +1,9 @@
 #!/bin/bash
+
 input=""
 result=""
-while [[ $input != "q" ]]
+while read input
 do
-read input
 if [[ $input == "q" ]]
 then break
 fi

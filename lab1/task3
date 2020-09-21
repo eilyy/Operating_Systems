@@ -6,15 +6,14 @@ echo "3 - LAUNCH Links"
 echo "q - QUIT"
 input=""
 read input
-if [[ $input == "1" ]]
-then nano
-fi 
-if [[ $input == "2" ]]
-then vi
-fi
-if [[ $input == "3" ]]
-then links
-fi
-if [[ $input == "q" ]]
-then exit
-fi
+case $input in
+"1")
+nano
+;;
+"2")
+vi
+;;
+"3")
+links
+;;
+esac
