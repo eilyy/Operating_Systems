@@ -1,0 +1,9 @@
+1404:/usr/lib/systemd/systemd
+1408:(sd-pam)
+1415:sshd:
+1416:-bash
+4664:-bash
+4665:ps
+4666:tail
+4667:awk
+TOTAL COUNT: 8
