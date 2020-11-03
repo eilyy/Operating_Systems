@@ -46,7 +46,7 @@ fi
 
 if [[ $FILENAME == *"/"* ]]
 then
-	echo "Enter the filename without path"
+	echo "Argument can not contain a path"
 	exit 1
 fi
 
