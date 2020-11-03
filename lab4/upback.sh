@@ -5,7 +5,7 @@ lastBackup="$HOME/Backup-${lastBackupDate}"
 
 if [[ -z "$lastBackupDate" ]]
 then
-	echo "There's no any backup."
+	echo "Backup directory doesn't exist"
 	exit 1
 fi
 

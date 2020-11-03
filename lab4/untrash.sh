@@ -44,6 +44,12 @@ then
 	exit 1
 fi
 
+if [[ $FILENAME == *"/"* ]]
+then
+	echo "Enter the filename without path"
+	exit 1
+fi
+
 touch matches.tmp
 
 grep -i "/$1\>" "$TRASHLOG" > matches.tmp
